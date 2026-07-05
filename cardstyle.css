@@ -1,0 +1,72 @@
+body
+{
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+}
+
+
+.card
+{
+    width: 300px;
+    background-color:aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow:  0px 0px 10px;
+}
+
+
+ .card img
+{
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+
+}
+
+
+.h2new
+{
+    color:rgb(7, 95, 95);
+}
+
+
+.p
+{
+    text-align: center;
+    font-size: large;
+
+
+}
+
+
+.card button
+{
+    background-color:rgb(146, 60, 146);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    
+
+}
+
+
+.card button:hover
+{
+    background-color:rgb(37, 4, 54);
+
+}
+
+
+
+
+   
